@@ -1,0 +1,167 @@
+/*------------------title-section-----------------*/
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1, h2, h3  h4, h5, h6{
+    font-family: "Montserrat-Bold";
+}
+h3{
+    font-family:  Nunito-dark;
+}  
+.big-heading{
+    font-family: "Montserrat-Bold";
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#title, #testimonials, #press, #cta{
+    background-color:rgb(203, 81, 81);
+    color: #fff;
+}
+/*---------- container section -----------------*/
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/*------------------navigaton-bar--------------------*/
+
+.navbar{
+    padding: 4% 8% 4% 8%;
+}
+.nav-item{
+    padding: 18px 18px;
+}
+.nav-link{
+    font-size: 2.8ex;
+    font-family: Montserrat-light;
+
+}
+.navbar-brand{
+    font-family: Ubuntu ;
+    font-size: 3rem;
+    position: absolute;
+    left: 10px;                                                                                                      
+}
+
+.row{
+    margin-top: 45px;
+}
+ 
+/*-----------------button--------------------*/
+
+.download-button{
+    margin: 4px 3px ;
+    margin-right: 18px;
+}
+
+/* ------------title--------------------- */
+
+.title-image{
+    transform: rotate(25deg);  
+    width: 40%;
+    position: absolute;
+    right: 30%;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    text-align:left;
+}
+
+/*---------------------- features bar------------------------------- */
+
+#features{
+    background-color:#fff;
+    position: relative;
+   
+}
+
+.feature{
+    padding: auto 10rem;
+    
+}
+
+.feature-text{
+    font-size: 1.5rem ;
+}
+
+p{
+    color:grey;
+    
+}
+.icon{
+    color:red;
+    margin-bottom:1rem;
+    
+}
+
+.icon:hover{
+    color:rgb(216, 124, 124);
+}
+
+/*---------------testimonials section------------------------*/
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*---------------------press--------------------------*/
+
+#press{
+    padding-bottom: 30px;
+}
+#press img{
+    width:15%;
+    margin: 20px 20px 50px; 
+}
+
+/*-----------------pricing section-------------------*/
+
+#pricing{
+    padding: 7% 15%;
+    font-family: Nunito-dark;
+}
+
+.statement{
+    font-size: 30px;
+    font-weight: 500;
+}
+.column-box{
+    padding:2% 3%;
+}
+.price-tag{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* -----------cta------------ */
+
+/*--------------------footer section------------------*/
+
+.social-icon{
+    margin: 20px 10px;
+}
+
+/* ------------Media queries----------------- */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .iphonepic{
+        position: static;
+        transform: rotate(0);
+    }
+}
